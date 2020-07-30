@@ -22,7 +22,7 @@ parameters {
             
             echo 'terraform init'
            // sh "${env.TERRAFORM_HOME}/terraform init terraform/"
-              def config = "init"
+              def config = ["init","validate","plan"]
               terraformPipeline(config)     
         }
         }
