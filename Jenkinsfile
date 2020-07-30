@@ -1,5 +1,5 @@
 @Library('cicd-pipeline')_
 
-def config = init
+def config = "init"
 
 terraformPipeline(config)
