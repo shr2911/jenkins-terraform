@@ -1,4 +1,4 @@
-@Library('dcube-library@master') _
+@Library('cicd-pipeline')_
 
 def config = ['init','validate']
 
