@@ -17,7 +17,6 @@ parameters {
 
         steps {
             script {
-            echo "Testing app & Commits"
             def tfHome = tool name: 'Terraform'
             env.PATH = "${tfHome}:${env.PATH}"
             
@@ -52,7 +51,6 @@ parameters {
                //sh "terraform apply -auto-approve $terraform_path/"
           }
      }
-
   }
 }
 
